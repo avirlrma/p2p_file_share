@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HOST	../client.py	/^HOST = '127.0.0.1'  # The server's hostname or IP address$/;"	kind:variable	line:5
+HOST	../globals.py	/^HOST = '127.0.0.1'$/;"	kind:variable	line:1
+HOST	../server.py	/^HOST = '127.0.0.1'  # Standard loopback interface address (localhost)$/;"	kind:variable	line:5
+PORT	../client.py	/^PORT = 65432        # The port used by the server$/;"	kind:variable	line:6
+PORT	../globals.py	/^PORT = 6253/;"	kind:variable	line:2
+PORT	../server.py	/^PORT = 65432        # Port to listen on (non-privileged ports are > 1023)$/;"	kind:variable	line:6
+Peer	../p2p.py	/^class Peer:$/;"	kind:class	line:1
+__init__	../p2p.py	/^    def __init__( self, maxpeers, serverport, myid=None, serverhost = None ):$/;"	kind:member	line:2
+boot.py	../boot.py	1;"	kind:file	line:1
+boot_network	../boot.py	/^def boot_network():$/;"	kind:function	line:3
+client.py	../client.py	1;"	kind:file	line:1
+data	../client.py	/^    data = s.recv(1024)$/;"	kind:variable	line:11
+data	../server.py	/^            data = conn.recv(1024)$/;"	kind:variable	line:15
+globals.py	../globals.py	1;"	kind:file	line:1
+p2p.py	../p2p.py	1;"	kind:file	line:1
+server.py	../server.py	1;"	kind:file	line:1
