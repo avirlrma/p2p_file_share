@@ -2,8 +2,6 @@ import globals
 import threading
 import socket
 
-
-
 def boot_network():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((globals.HOST, globals.PORT))
